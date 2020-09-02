@@ -1,10 +1,5 @@
-const buttonText = [
-	'Ugh.',
-	'🤦🏻‍♂️',
-	'omg dad.',
-	'you are the worst',
-	'seriously',
-	'stop it.',
-	'please stop',
-	'that was the worst one',
-];
+import { handleClick } from './lib/handlers.js';
+import { jokeButton } from './lib/elements.js';
+ 
+
+jokeButton.addEventListener('click', handleClick);
